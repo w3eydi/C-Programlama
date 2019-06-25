@@ -1,1 +1,5 @@
-"# C-Programlama" 
+# C-Programlama
+C programlama hakkýnda genel örneklere konularýna göre diðer dallara týklayarak ulaþabilirsiniz.
+
+# Dallar!
+
