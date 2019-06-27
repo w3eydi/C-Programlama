@@ -3,12 +3,21 @@ C programlama hakkýnda genel örneklere konularýna göre diðer dallara týklayarak 
 
 ## Merhaba C!
 
-C programlama da bizde klasik olarak ekrana bir Merhaba Dünya ç¿kt¿s¿ yazmak istiyoruz.
+C programlama da bizde klasik olarak ekrana bir Merhaba Dünya çýktýsý yazmak istiyoruz.
 
-Peki, nas¿l ba¿lamal¿y¿z?
-Asl¿nda bilgisayar mant¿¿¿na bakt¿¿¿m¿zda giri¿ ve ç¿k¿¿ birimleriyle i¿ yapar¿z.
-Bizim giri¿ ve ç¿k¿¿ birimlerimizi burada yüklemek için bir kütüphaneye ihtiyac¿m¿z bulunmaktad¿r.
-Buradaki ç¿k¿¿ ekran ve giri¿ birimi olarak klavye öngörülmektedir.
+Peki, nasýl baþlamalýyýz?
+Aslýnda bilgisayar mantýðýna baktýðýmýzda giriþ ve çýkýþ birimleriyle iþlem yaparýz.
+Bizim giriþ ve çýkýþ birimlerimizi burada yüklemek için bir kütüphaneye ihtiyacýmýz bulunmaktadýr.
+Buradaki çýkýþ birimi ekran ve giriþ birimi olarak klavye öngörülmektedir.
+
+'''sh
+
+#include <stdio.h>
+
+'''
+
+Adýndan da gördüðümüz üzere Standart Input Output
+kelimesinin kýsaltýlmasý.Yani; standart giriþ çýkýþ **Header dosyasýný yüklediðimizde giriþ ve çýkýþ iþlemlerini gerçekleþtirebiliyoruz.
 
 
 
