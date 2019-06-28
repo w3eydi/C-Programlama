@@ -29,6 +29,7 @@ yorum
 satırı bırakabilirsiniz.
 
 */
+```
 
 ** /*  Yorumlar */ ** şeklinde de kullanabilirsiniz.
 
