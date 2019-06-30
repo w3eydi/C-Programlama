@@ -7,7 +7,7 @@ C dilinde Türkçe karakter yazdýktan sonra **printf()** fonksiyonu ile ekrana yaz
 Bu sorunu 
 
 ```
-#include <locale.h> // Header(**baþlýk**) dosyasýný kodumuza ekliyoruz.
+#include <locale.h> // Header(```**baþlýk**```) dosyasýný kodumuza ekliyoruz.
 ```
 
 **main() {  ..  }** bloðu içerisinde ise kodlar baþlarken;
@@ -21,5 +21,5 @@ setlocale(LC_ALL, ""); // setlocale(LC_ALL, "Turkish"); þeklinde de olabilir.
 }
 ```
 
-setlocale() fonksiyonunu gösterilen þekillerden biriyle yükleyebiliriz.
+**setlocale()** fonksiyonunu gösterilen þekillerden biriyle yükleyebiliriz.
 
