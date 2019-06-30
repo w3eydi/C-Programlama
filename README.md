@@ -1,11 +1,25 @@
-# C-Programlama
-C programlama hakkýnda genel örneklere konularýna göre diðer dallara týklayarak ulaþabilirsiniz.
+## C 'de Türkçe Karakterler yazdýrmak!
 
-# Dallar!
+Hemen hemen hepimiz bu sorunu yaþamýþýzdýr.
 
-| Konular | README |
-| ------- | ---------------------- |
-| [Merhaba Dünya](https://github.com/w3eydi/C-Programlama/tree/1.-Merhaba-D%C3%BCnya) | Ýlk C kodumuzu yazýp, temel bileþenlerden bahsediyoruz. |
-| Degiskenler | |
-| Ýþaretçiler | |
+C dilinde Türkçe karakter yazdýktan sonra **printf()** fonksiyonu ile ekrana yazdýrmaya çalýþtýðýmýzda ekranda garip simgeler görmekteyiz.
+
+Bu sorunu 
+
+```
+#include <locale.h> // Header(**baþlýk**) dosyasýný kodumuza ekliyoruz.
+```
+
+**main() {  ..  }** bloðu içerisinde ise kodlar baþlarken;
+
+```
+main(){
+setlocale(LC_ALL, ""); // setlocale(LC_ALL, "Turkish"); þeklinde de olabilir.
+
+...
+
+}
+```
+
+setlocale() fonksiyonunu gösterilen þekillerden biriyle yükleyebiliriz.
 
