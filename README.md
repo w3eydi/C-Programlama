@@ -20,9 +20,9 @@ C dilinde öniþlemciler kaynak programýn **#** karakteriyle baþýna yazýlan, progr
 | \#pragma | Derleyiciye ek bilgi göndererek, derleyicinin belirli özelliklerini kontrol eder. |
 | \#region | Kullandýðýmýz IDE'de belirlediðimiz kod bloklarýný sol tarafta bulunan panelle saklamamýza yarar. |
 | \#endregion | Saklanmasý istenen kod bloðunun biteceði yeri gösterir. |
-| __LINE__ | Kodun bulunduðu satýrý belirtir. \#line ile müdahale edilebilir. |
-| __FILE__ | Kodun kaynak dosyasýnýn uzantýsýný gösterir. |
-| __DATE__ | Kodun derlendiði tarihi belirtir. |
-| __TIME__ | Yürütülen zamaný, saat, dakika ve saniye cinsinden gösterir. |
+| \_\_LINE__ | Kodun bulunduðu satýrý belirtir. \#line ile müdahale edilebilir. |
+| \_\_FILE__ | Kodun kaynak dosyasýnýn uzantýsýný gösterir. |
+| \_\_DATE__ | Kodun derlendiði tarihi belirtir. |
+| \_\_TIME__ | Yürütülen zamaný, saat, dakika ve saniye cinsinden gösterir. |
 
 Öniþlemci komutlarý gözünüzü korkutmasýn. Örnekler ile ve zamanla alýþacaksýnýz. Üstelik belli baþlý ifadeleri sýkça kullanmaktayýz, diðerlerini göz aþinalýðý olsun diye tabloya yerleþtirdik.
