@@ -1,11 +1,11 @@
-# C-Programlama
-C programlama hakkýnda genel örneklere konularýna göre diðer dallara týklayarak ulaþabilirsiniz.
+## Öniþlemciler (Preprocessor)
 
-# Dallar!
+C dilinde öniþlemciler kaynak programýn **#** karakteriyle baþýna yazýlan, program derlenmeden hemen önce devreye giren ve derleyici tarafýndan denetlenen buyrukçulardýr.
 
-| Konular | README |
+
+| Buyruk | Tanýmý |
 | ------- | ---------------------- |
-| [Merhaba Dünya](https://github.com/w3eydi/C-Programlama/tree/1.-Merhaba-D%C3%BCnya) | Ýlk C kodumuzu yazýp, temel bileþenlerden bahsediyoruz. |
-| [Türkçe Karakter](https://github.com/w3eydi/C-Programlama/tree/1.1.-T%C3%BCrk%C3%A7e-Karakter) | Türkçe karakter sorunuyla alakalý konu anlatýmý ve örnek kod paylaþýmý. |
+| \# | Hiçbir eylemde bulunulmayacaðýný gösteren NULL buyrukçusu. |
+| \#define | Makro veya yerine koymalarda kullanabileceðiniz bir buyrukçu tipi. |
 | Ýþaretçiler | |
 
