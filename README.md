@@ -1,11 +1,22 @@
-# C-Programlama
-C programlama hakkýnda genel örneklere konularýna göre diðer dallara týklayarak ulaþabilirsiniz.
+## Deðiþkenler
 
-# Dallar!
+Deðiþkenler kýsaca bellekte yer tutan bilgi parçacýklarýna verilen addýr.Yani; günlük yapmakta
+olduðumuz bütün iþlemler bilgisayarýn belleðinde anlýk olarak tutulur. Kullanýlýr, silinebilir 
+ve tekrar oluþturulabilir. Her biri kendine göre bellekte belli bir yer kaplar. Aþaðýdaki
+tabloda konuyla alakalý detaylý bilgi verilmiþtir. **sizeof()** fonksiyonu ile boyutlarýný 
+sizde öðrenebilirsiniz.
+
+Deðiþkenler harf veya _(altçizgi) ile baþlayabilir. Sayý tanýmlamada kullanýlsa da asla baþlangýçta olamaz.
+
+`
+int HarfAyrimi_Vardir = 10;  // Þeklinde olabileceði gibi
+int a, b, c;  // sýralý tanýmlanabilirler.
+`
 
 | Konular | README |
 | ------- | ---------------------- |
-| [Merhaba Dünya](https://github.com/w3eydi/C-Programlama/tree/1.-Merhaba-D%C3%BCnya) | Ýlk C kodumuzu yazýp, temel bileþenlerden bahsediyoruz. |
-| [Türkçe Karakter](https://github.com/w3eydi/C-Programlama/tree/1.1.-T%C3%BCrk%C3%A7e-Karakter) | Türkçe karakter sorunuyla alakalý konu anlatýmý ve örnek kod paylaþýmý. |
-| [Öniþlemciler](https://github.com/w3eydi/C-Programlama/tree/1.2.-%C3%96ni%C5%9Flemciler) | Öniþlemciler (preprocessor) ile ilgili kullaným örnekleri.|
+| char, signed char | -128 <> +127 |
+| unsigned char | 0 <> +255 |
+| short int | -32768 <> +32767 |
+| unsigned short int | 0 <> 65535 |
 
